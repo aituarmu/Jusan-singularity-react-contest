@@ -4,6 +4,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AllPosts from './pages/AllPosts';
 import NewPost from './pages/NewPost';
 
+
+export interface IApplicationProps {};
+
 function App() {
   return (
     <div className="App">
