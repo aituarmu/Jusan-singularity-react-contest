@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function AllPosts() {
+   const [posts, setPosts] = useState([]);
+
+
+
   return (
-    <div>All Posts</div>
+    <div>
+     
+     <h2>All Posts</h2>
+    </div>
   )
 }
 

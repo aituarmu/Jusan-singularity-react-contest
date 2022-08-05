@@ -5,6 +5,7 @@ import AllPosts from './pages/AllPosts';
 import NewPost from './pages/NewPost';
 
 
+
 export interface IApplicationProps {};
 
 function App() {
